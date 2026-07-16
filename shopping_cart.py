@@ -19,12 +19,9 @@ for food in Food :
 
 for Price in Prices :
     Total+=Price
-
+    
 print()
-
-
 print(f"YOUR TOTAL ITEMS WORTH : ${Total:.2f}")
-
 print("----------THANKYOU FOR VISITING------------")
 
 
