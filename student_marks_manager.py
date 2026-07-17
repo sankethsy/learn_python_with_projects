@@ -11,5 +11,5 @@ print(f"Your highest Marks is {highest}")
 
 lowest=min(marks)
 print(f"Your Lowest marks is {lowest}")
-averae=int(sum(marks)/len(marks))
-print(f"Your Avg is {averae}")
+average=int(sum(marks)/len(marks))
+print(f"Your Avg is {average}")
