@@ -21,8 +21,10 @@ while True:
     food=input("Select an item ( q to quit): ").lower()
     if food=="q":
         break
-    elif Menu.get(food)is not None:
-        Cart.append(food)
+    elif Menu.get(food) is None :
+        print("Select the Items from The MENU Only.")
+    else :
+      Cart.append(food)
 
 
 print("-------------YOUR ORDER----------")
@@ -33,6 +35,3 @@ for food in Cart:
 
 print()
 print(f"YOUR TOTAL BILL IS :${Total}")
-
-
-      
