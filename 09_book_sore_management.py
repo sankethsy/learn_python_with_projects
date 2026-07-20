@@ -5,14 +5,6 @@ books = {
     "Embedded Linux": "Available"
 }
 
-
-books = {
-    "Linux": "Available",
-    "Maths": "Borrowed",
-    "AI/ML": "Available",
-    "Embedded Linux": "Available"
-}
-
 while True:
 
     print("""
