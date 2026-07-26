@@ -30,3 +30,4 @@ for letter in cipher_text:
 
 print(f"\nEncrypted message: {cipher_text}")
 print(f"Original message : {plain_text}")
+print("done")
