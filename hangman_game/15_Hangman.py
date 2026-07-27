@@ -1,5 +1,5 @@
 import random
-from hangman_game.words_list import words
+from words_list import words
 
 # this is a dict of key:()
 hangman = {
